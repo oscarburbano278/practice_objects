@@ -14,3 +14,7 @@ console.log(shoes1);
 var shoes2 = new Shoes("escolar", "negro", 36, false);
 console.log(shoes2);
 
+// podemos llevar los objetos en un array nos muestra cuantos array hay 
+
+var shoesStore = [shoes1, shoes2];
+console.log(shoesStore);
