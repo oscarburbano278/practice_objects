@@ -18,3 +18,18 @@ console.log(shoes2);
 
 var shoesStore = [shoes1, shoes2];
 console.log(shoesStore);
+
+// crear objetos dentro de un array
+
+var users = [
+    {
+        nameClient: "Carlos",
+        age: 30
+    },
+
+    {
+        nameClient: "Andres",
+        age: 25,
+    }
+]
+console.log(users);
