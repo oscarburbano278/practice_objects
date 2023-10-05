@@ -35,7 +35,7 @@ var users = [
 ]
 console.log(users);
 
-// formas de acceder a los atributos de los objetos con respecto a Shoes
+// formas de acceder a los atributos de los objetos con respecto a Shoes1
 
 console.log(shoes1.color);
 //con corchetes
@@ -44,3 +44,15 @@ console.log(shoes1["color"]);
 console.log(shoes1["nationality"][1]);
 // sin corchetes
 console.log(shoes1.nationality[0]);
+
+// CRUD create, read, update, delete con respecto  Shoes2
+
+// crear una propiedad
+shoes2.material = "leather"
+console.log(shoes2);
+// leer una propiedad
+console.log(shoes2.estilo);
+//actualizar una propiedad
+shoes2.existencia = true;
+//eliminar una propiedad
+delete shoes2.color;
